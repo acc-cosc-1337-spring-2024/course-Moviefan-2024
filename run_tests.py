@@ -1,11 +1,5 @@
-# File: tests/homework/c_decisions/run_tests.py
-
-import unittest
+# Replace the import statement for the test module
 from tests.homework.d_repetition import tests_repetition
 
-
-    # Load the test cases from the test_decisions module
+# Replace the suite variable initialization
 suite = unittest.TestLoader().loadTestsFromModule(tests_repetition)
-
-    # Run the tests
-unittest.TextTestRunner(verbosity=2).run(suite)
