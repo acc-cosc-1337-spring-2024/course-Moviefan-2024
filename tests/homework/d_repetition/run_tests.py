@@ -1,6 +1,7 @@
-# File: tests/homework/c_decisions/run_tests.py
+# File: tests/homework/d_repetition/run_tests.py
 
-import unittest
+from tests.homework.c_decisions import tests_decisions
+
 from tests.homework.d_repetition import tests_repetition
 
 

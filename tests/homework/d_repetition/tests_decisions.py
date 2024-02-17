@@ -1,10 +1,7 @@
-# tests/homework/c_decisions/test_decisions.py
-
 import unittest
 from src.homework.d_repetition.repetition import get_factorial, sum_odd_numbers
 
 class Test_Config(unittest.TestCase):
-
     def test_get_factorial(self):
         self.assertEqual(get_factorial(4), 24)
         self.assertEqual(get_factorial(5), 120)
