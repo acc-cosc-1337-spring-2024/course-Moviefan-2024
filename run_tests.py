@@ -2,7 +2,9 @@
 
 import unittest
 
-from tests.homework.e_functions import tests_functions
+from tests.homework.h_strings import test_strings
+
 
 # Replace the suite variable initialization
-suite = unittest.TestLoader().loadTestsFromModule(tests_functions)
+suite = unittest.TestLoader().loadTestsFromModule(test_strings)
+
