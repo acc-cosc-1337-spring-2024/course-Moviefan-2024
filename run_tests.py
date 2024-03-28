@@ -2,9 +2,8 @@
 
 import unittest
 
-from tests.homework.h_strings import test_strings
+from tests.homework.i_dictionaries_and_sets import tests_dictionaries_and_sets
 
 
 # Replace the suite variable initialization
-suite = unittest.TestLoader().loadTestsFromModule(test_strings)
-
+suite = unittest.TestLoader().loadTestsFromModule(tests_dictionaries_and_sets)
