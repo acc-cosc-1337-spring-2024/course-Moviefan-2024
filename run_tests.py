@@ -1,7 +1,13 @@
-# Import the test module for dictionaries and sets
 import unittest
+from src.homework.j_classes.class_a import Die
 
-from tests.homework.i_dictionaries_and_sets import tests_dictionaries_and_sets
+class TestDie(unittest.TestCase):
+    def test_get_rolled_value(self):
+        die = Die()
+        for _ in range(3):  # Test 3 rolls
+            die.roll()
+            rolled_value = die.get_rolled_value()
+            self.assertTrue(1 <= rolled_value <= 6, f"Invalid rolled value: {rolled_value}")
 
-# Adjust the suite creation
-suite = unittest.TestLoader().loadTestsFromModule(test_dictionaries_and_sets)
+if __name__ == '__main__':
+    unittest.main()
